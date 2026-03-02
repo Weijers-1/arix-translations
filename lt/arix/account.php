@@ -96,6 +96,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Atnaujinti profilį',
+        'first-name' => 'Vardas',
+        'last-name' => 'Pavardė',
+        'username' => 'Vartotojo vardas',
+        'updated-success' => 'Profilis sėkmingai atnaujintas.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'Dviejų veiksnių autentifikavimas įjungtas',
         'description' => 'Išsaugokite žemiau esančius kodus saugioje vietoje. Jei neteksite prieigos prie telefono, galėsite naudoti šiuos atsarginius kodus prisijungimui.',

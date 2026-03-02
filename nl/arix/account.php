@@ -97,6 +97,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Profiel bijwerken',
+        'first-name' => 'Voornaam',
+        'last-name' => 'Achternaam',
+        'username' => 'Gebruikersnaam',
+        'updated-success' => 'Profiel succesvol bijgewerkt.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'Tweestapsverificatie ingeschakeld',
         'description' => 'Sla de onderstaande codes op een veilige plek op. Als je geen toegang meer heeft tot je telefoon, kunt je deze back-up codes gebruiken om in te loggen.',

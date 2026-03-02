@@ -98,6 +98,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Actualizează profilul',
+        'first-name' => 'Prenume',
+        'last-name' => 'Nume de familie',
+        'username' => 'Nume utilizator',
+        'updated-success' => 'Profil actualizat cu succes.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'Autentificarea Cu 2 Pasi Activa',
         'description' => 'Salveaza codurile de mai jos intr-un loc sigur. Daca iti pierzi accesul la acest telefon le vei putea folosi sa reintri in cont.',

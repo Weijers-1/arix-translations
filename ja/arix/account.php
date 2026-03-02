@@ -97,6 +97,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'プロフィールを更新',
+        'first-name' => '名',
+        'last-name' => '姓',
+        'username' => 'ユーザー名',
+        'updated-success' => 'プロフィールが正常に更新されました。',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => '二段階認証が有効化されました',
         'description' => '以下のコードを安全な場所に保存してください。スマートフォンへのアクセスを失った場合、これらのバックアップコードでサインインできます。',

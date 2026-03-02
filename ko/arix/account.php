@@ -98,6 +98,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => '프로필 업데이트',
+        'first-name' => '이름',
+        'last-name' => '성',
+        'username' => '사용자 이름',
+        'updated-success' => '프로필이 성공적으로 업데이트되었습니다.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => '이중 인증 활성화됨',
         'description' => '아래 코드를 안전한 위치에 저장하십시오. 전화기에 액세스를 잃으면 이 백업 코드를 사용하여 로그인할 수 있습니다.',

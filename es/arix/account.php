@@ -98,6 +98,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Actualizar perfil',
+        'first-name' => 'Nombre',
+        'last-name' => 'Apellido',
+        'username' => 'Nombre de usuario',
+        'updated-success' => 'Perfil actualizado con éxito.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'Autenticación de dos pasos habilitada',
         'description' => 'Guarde los códigos a continuación en un lugar seguro. Si pierde el acceso a su teléfono, puede usar estos códigos de respaldo para iniciar sesión.',

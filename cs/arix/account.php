@@ -98,6 +98,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Aktualizovat profil',
+        'first-name' => 'Křestní jméno',
+        'last-name' => 'Příjmení',
+        'username' => 'Uživatelské jméno',
+        'updated-success' => 'Profil byl úspěšně aktualizován.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'Dvoufázové ověření zapnuto',
         'description' => 'Uložte si kódy níže na bezpečné místo. Pokud ztratíte vaše zařízení, můžete tyto kódy použít k přihlášení.',

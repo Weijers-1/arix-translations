@@ -98,6 +98,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Perbarui profil',
+        'first-name' => 'Nama depan',
+        'last-name' => 'Nama belakang',
+        'username' => 'Nama pengguna',
+        'updated-success' => 'Profil berhasil diperbarui.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'Otentikasi Dua Langkah Diaktifkan',
         'description' => 'Simpan kode di bawah ini di tempat yang aman. Jika Anda kehilangan akses ke ponsel Anda, Anda dapat menggunakan kode cadangan ini untuk masuk.',

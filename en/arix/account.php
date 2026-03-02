@@ -97,6 +97,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Update Profile',
+        'first-name' => 'First Name',
+        'last-name' => 'Last Name',
+        'username' => 'Username',
+        'updated-success' => 'Profile updated successfully.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'Two-Step Authentication Enabled',
         'description' => 'Store the codes below somewhere safe. If you lose access to your phone you can use these backup codes to sign in.',

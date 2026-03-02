@@ -98,6 +98,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Profili güncelle',
+        'first-name' => 'İsim',
+        'last-name' => 'Soyisim',
+        'username' => 'Kullanıcı adı',
+        'updated-success' => 'Profil başarıyla güncellendi.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'İki Faktörlü Kimlik Doğrulama Etkin',
         'description' => 'Aşağıdaki kodları güvenli bir yerde saklayın. Telefon erişiminizi kaybederseniz, bu yedek kodları kullanarak giriş yapabilirsiniz.',

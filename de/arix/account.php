@@ -98,6 +98,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Profil aktualisieren',
+        'first-name' => 'Vorname',
+        'last-name' => 'Nachname',
+        'username' => 'Benutzername',
+        'updated-success' => 'Profil erfolgreich aktualisiert.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'Zwei-Schritt-Authentifizierung aktiviert',
         'description' => 'Bewahre die folgenden Codes an einem sicheren Ort auf. Wenn du den Zugang zu deinem Telefon verlierst, kannst du diese Backup-Codes verwenden, um dich anzumelden',

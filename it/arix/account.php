@@ -98,6 +98,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Aggiorna profilo',
+        'first-name' => 'Nome',
+        'last-name' => 'Cognome',
+        'username' => 'Nome utente',
+        'updated-success' => 'Profilo aggiornato con successo.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'Autenticazione a Due Fattori Abilitata',
         'description' => 'Memorizza i codici qui sotto in un posto sicuro. Se perdi l\'accesso al tuo telefono, puoi utilizzare questi codici di backup per accedere.',

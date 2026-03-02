@@ -98,6 +98,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Opdater profil',
+        'first-name' => 'Fornavn',
+        'last-name' => 'Efternavn',
+        'username' => 'Brugernavn',
+        'updated-success' => 'Profil opdateret med succes.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'To-trins godkendelse aktiveret',
         'description' => 'Opbevar koderne nedenfor et sikkert sted.Hvis du mister adgangen til din telefon, kan du bruge disse backup-koder til at logge ind.',

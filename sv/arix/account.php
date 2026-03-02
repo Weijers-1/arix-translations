@@ -98,6 +98,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Uppdatera profil',
+        'first-name' => 'Förnamn',
+        'last-name' => 'Efternamn',
+        'username' => 'Användarnamn',
+        'updated-success' => 'Profil uppdaterad.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'Tvåstegsautentisering Aktiverad',
         'description' => 'Spara koderna nedan på ett säkert ställe. Om du förlorar åtkomsten till din telefon kan du använda dessa reservkoder för att logga in.',

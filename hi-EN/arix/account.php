@@ -98,6 +98,14 @@ return [
         ],
     ],
 
+    'profile' => [
+        'update-profile' => 'Profile update karo',
+        'first-name' => 'First Name',
+        'last-name' => 'Last Name',
+        'username' => 'Username',
+        'updated-success' => 'Profile successfully updated.',
+    ],
+
     'recoveryTokensDialog' => [
         'title' => 'Two-factor on hai',
         'description' => 'Niche diye gaye codes ko kahin safe jagah par likh lo. Agar aapka phone kho jaye to in backup codes se sign in kar sakte ho.',
