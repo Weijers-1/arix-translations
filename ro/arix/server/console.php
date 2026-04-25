@@ -8,6 +8,6 @@ return [
     'view-all' => 'Vezi tot',
     'clear-console' => 'Golire consolă',
     'share-logs' => 'Distribuie jurnale',
-    'floating-console' => 'Consolă flotantă',
+    'floating-console' => 'Consolă liberă',
     'type-a-command' => 'Scrie o comanda...',
 ];

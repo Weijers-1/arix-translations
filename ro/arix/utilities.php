@@ -26,7 +26,7 @@ return [
     'cpu-usage' => 'Utilizarea CPU',
     'memory-usage' => 'Utilizarea Memoriei',
     'disk-usage' => 'Utilizarea Disk-ului',
-    'inbound-outbound' => 'Sosire / Plecare',
+    'inbound-outbound' => 'Sosiri / Plecari',
     'low-resources' => 'Resurse reduse',
     'low-resources-desc' => 'Server-ul tau ruleaza pe resurse reduse, te rog actualizeaza-ti planul',
     'upgrade-server' => 'Upgrade Server',
