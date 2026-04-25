@@ -10,7 +10,7 @@ return [
         'forgot-password' => 'Ai uitat parola?',
         'login' => 'Login',
 
-        'must-be-provided' => 'Un username sau un email trebuie specificate.',
+        'must-be-provided' => 'Un username sau un email trebuie specificat.',
         'new-here' => 'Prima dată aici? Creează un cont.',
         'please-enter-password' => 'Te rog introdu parola contului tau',
     ],
