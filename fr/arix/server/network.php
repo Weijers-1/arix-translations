@@ -1,16 +1,16 @@
 <?php
 
-return [
+return[
     'network' => 'Réseau',
     'manage-allocation' => 'Gérer les allocations',
     'create-allocation' => 'Créer une allocation',
-    'currently-using' => 'Vous utilisez actuellement {{current}} des {{max}} allocations autorisées pour ce serveur.',
+    'currently-using' => 'Vous utilisez actuellement {{current}} sur {{max}} allocations autorisées pour ce serveur.',
 
     'IP' => 'IP',
     'port' => 'Port',
     'notes' => 'Notes',
-    'primary' => 'Primaire',
-    'make-primary' => 'Rendre primaire',
+    'primary' => 'Principal',
+    'make-primary' => 'Définir comme principal',
 
     'remove-allocation' => 'Supprimer l\'allocation',
     'remove-allocation-description' => 'Cette allocation sera immédiatement supprimée de votre serveur.',

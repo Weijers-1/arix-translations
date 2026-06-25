@@ -7,7 +7,7 @@ return [
     'move' => 'Déplacer',
     'archive' => 'Archiver',
     'unarchive' => 'Désarchiver',
-    'create-directory' => 'Créer un répertoire',
+    'create-directory' => 'Créer un dossier',
     'upload' => 'Téléverser',
     'new-file' => 'Nouveau fichier',
     'rename' => 'Renommer',
@@ -15,38 +15,46 @@ return [
     'copy' => 'Copier',
     'download' => 'Télécharger',
     'update' => 'Mettre à jour',
-    'file-mode' => 'Mode du fichier',
+
+    'file-mode' => 'Mode fichier',
     'you-cant-recover' => 'Vous ne pourrez pas récupérer le contenu de',
     'once-deleted' => 'une fois supprimé.',
     'delete-files' => 'Supprimer les fichiers',
     'are-you-sure' => 'Êtes-vous sûr de vouloir supprimer',
-    'this-is-permanent-action' => 'Il s\'agit d\'une action permanente et les fichiers ne pourront pas être récupérés.',
-    'name' => 'Nom',
-    'size' => 'Taille',
-    'date' => 'Date',
-    'home' => 'Accueil',
-    'container' => 'Conteneur',
-    'is-empty' => 'Ce répertoire semble être vide.',
-    'is-limited' => 'Ce répertoire est trop volumineux pour être affiché dans le navigateur. La sortie est limitée aux 250 premiers fichiers.',
-    'are-upload-click-to-view' => 'des fichiers sont en cours de téléversement, cliquez pour voir',
+    'this-is-permanent-action' => 'C\'est une action permanente et les fichiers ne peuvent pas être récupérés.',
+    'name' => 'nom',
+    'size' => 'taille',
+    'date' => 'date',
+    'home' => 'accueil',
+    'container' => 'conteneur',
+    'is-empty' => 'Ce dossier semble vide.',
+    'is-limited' => 'Ce dossier est trop volumineux pour être affiché dans le navigateur, affichage limité aux 250 premiers fichiers.',
+    'are-upload-click-to-view' => 'fichiers en cours de téléversement, cliquez pour voir',
     'cancel-uploads' => 'Annuler les téléversements',
     'cancel' => 'Annuler',
     'close' => 'Fermer',
     'create' => 'Créer',
     'file-name' => 'Nom du fichier',
-    'file-name-description' => 'Saisissez le nom sous lequel ce fichier doit être enregistré.',
-    'directory-will-be-as' => 'Ce répertoire sera créé en tant que',
-    'rename-description' => 'Saisissez le nouveau nom et le répertoire de ce fichier ou dossier, par rapport au répertoire actuel.',
+    'file-name-description' => 'Entrez le nom sous lequel ce fichier doit être enregistré.',
+    'directory-will-be-as' => 'Ce dossier sera créé comme',
+    'rename-description' => 'Entrez le nouveau nom et emplacement de ce fichier ou dossier, relatif au dossier actuel.',
     'new-location' => 'Nouvel emplacement',
-    'drag-and-drop' => 'Faites glisser et déposez des fichiers pour les téléverser.',
-
-
-    'folders-not-supported' => 'Les téléversements de dossiers ne sont pas pris en charge pour le moment.',
+    'drag-and-drop' => 'Glissez et déposez les fichiers pour les téléverser.',
+    'folders-not-supported' => 'Le téléversement de dossiers n\'est pas pris en charge pour le moment.',
     'upload-files' => 'Téléverser des fichiers',
     'folder-too-big' => 'La taille du dossier dépasse la limite de 10 Mo. Veuillez sélectionner un dossier plus petit.',
     'upload-folders' => 'Téléverser des dossiers',
     'upload-from-url' => 'Téléverser depuis une URL',
-    'filename' => 'Nom de fichier',
+    'filename' => 'Nom du fichier',
+
+    'edit' => [
+        'youre-editing' => 'Vous modifiez un fichier',
+        'will-be-exluded' => 'Les fichiers ou dossiers listés ici seront exclus des sauvegardes. Les jokers sont pris en charge avec un astérisque',
+        'you-can-negate' => 'Vous pouvez annuler une règle précédente en ajoutant un point d\'exclamation',
+        'save-content' => 'Enregistrer le contenu',
+        'create-file' => 'Créer un fichier',
+    ],
+
     'open-code-editor' => 'Ouvrir l\'éditeur de code',
 
     'code-editor' => [
@@ -61,14 +69,28 @@ return [
         'no-files-found' => 'Aucun fichier trouvé',
         'loading' => 'Chargement...',
 
-        'file-be-created' => 'Ce fichier sera créé sous le nom',
+        'file-be-created' => 'Ce fichier sera créé comme',
     ],
-    
-    'edit' => [
-        'youre-editing' => 'Vous modifiez un',
-        'will-be-exluded' => 'fichier. Tous les fichiers ou répertoires répertoriés ici seront exclus des sauvegardes. Les exceptions sont pris en charge en utilisant un astérisque',
-        'you-can-negate' => 'Vous pouvez nier une règle précédente en préfixant un point d\'exclamation',
-        'save-content' => 'Enregistrer le contenu',
-        'create-file' => 'Créer un fichier',
-    ],
+
+    'trashbin' => [
+        'title' => 'Corbeille',
+        'description' => 'Voir et gérer les fichiers dans la corbeille.',
+
+        'is-empty' => 'La corbeille est vide.',
+
+        'will-be-deleted' => 'Les éléments dans la corbeille sont supprimés définitivement après {{days}} jours.',
+        'select-all' => 'Tout sélectionner',
+        'selected' => 'Sélectionné',
+
+        'original-path' => 'Chemin d\'origine',
+        'item' => 'élément',
+        'items' => 'éléments',
+
+        'deleted-at' => 'Supprimé le',
+        'restore' => 'Restaurer',
+        'delete' => 'Supprimer',
+        'confirm-delete' => 'Confirmer la suppression',
+
+        'delete-permanently' => 'Supprimer définitivement',
+    ]
 ];
